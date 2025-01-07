@@ -1,8 +1,3 @@
--=(Robotron_Senhor notes)=-
-
-Tested: Working Video 720p, 1080p & Sound
-
-___
 # [Arcade: Robotron](https://en.wikipedia.org/wiki/Robotron:_2084) port to [MiSTer](https://github.com/MiSTer-devel/Main_MiSTer/wiki) 
 
 MiSTer port by oldgit(davewoo999) and Sorgelig  

@@ -143,7 +143,7 @@ wire BTN_RESET = 1'b1, BTN_OSD = 1'b1, BTN_USER = 1'b1;
 /////////////////////////////////////////////////////////////////////////
 
 //////////////////////  Secondary SD  ///////////////////////////////////
-wire SD_CS, SD_CLK, SD_MOSI, SD_MISO, SD_CD;
+//wire SD_CS, SD_CLK, SD_MOSI, SD_MISO, SD_CD;
 
 //`ifndef MISTER_DUAL_SDRAM
 //	assign SD_CD       = mcp_en ? mcp_sdcd : SDCD_SPDIF;
