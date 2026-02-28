@@ -1,3 +1,14 @@
+-=(Robotron_Senhor notes)=-
+
+Tested: Working Video 720p, 1080p & Sound.
+
+Dev notes: Added an Arcade-Robotron.sdc 
+
+Entry in files.qip: set_global_assignment -name SDC_FILE Arcade-Robotron.sdc
+
+Line 1521 in sys_top.v: assign HDMI_MCLK = 1'b1; // Audio crackles fix
+___
+
 # [Arcade: Robotron](https://en.wikipedia.org/wiki/Robotron:_2084) port to [MiSTer](https://github.com/MiSTer-devel/Main_MiSTer/wiki) 
 
 MiSTer port by oldgit(davewoo999) and Sorgelig  
